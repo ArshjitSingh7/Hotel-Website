@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.6em;
+}
+a,li {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+h1,h2,h2 {
+    padding: 10px;
+}
+.bg-light{
+    background-color: darkgray;
+}
+.bg-primary{
+    background-color: peru;
+}
+.bg-dark {
+    background-color: black;
+    color: peru;
+}
+.clr {
+    clear: both;
+}
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 10 50px
+}
+.current {
+    color: peru;
+    background-color: black;
+}
+.heading {
+    float:left;
+    font-size: 1.6em;
+}
+.l-heading {
+    color: peru;
+}
+.btn {
+    color: white;
+    border: 1px solid darkgray;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+.btn:hover {
+    color: peru;
+    background-color: black;
+}
+#main-nav {
+    overflow: auto;
+}
+#main-nav .container ul {
+    float: right;
+}
+#main-nav .container ul li {
+    float: left;
+}
+#main-nav .container ul li a {
+    display: block;
+    padding: 10px;
+    font-size: 1.6em;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+#main-nav .container ul li a:hover {
+    color: peru;
+    background-color: black;
+}
+#main-info {
+    background: url('../img/showcase.jpg') no-repeat center center /cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 150px;
+}
+#main-info .container h1 {
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+#main-info .container p {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 50px;
+}
+#home-info {
+    height: 300px;
+}
+#home-info  .info-left {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+#home-info  .info-right {
+    float: right;
+    width: 50%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding : 20px;
+    padding-top: 30px;
+}
+#home-info  .info-right h1 {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+}
+#home-info  .info-right p {
+    font-size: 1.2em;
+}
+#home-info  .info-right a {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: black;
+    color: peru;
+}
+#home-info  .info-right a:hover {
+    background-color: white;
+    color: black;
+}
+.box {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.foot {
+    text-align: center;
+    padding: 10px 0px;
+}
+#about-info {
+    padding: 30px;
+}
+#about-info .about-content {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-right: 100px;
+}
+#about-info .about-photo {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    padding-bottom: 30px;
+}
+#about-info .about-photo img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+    
+  }
+#about-info .about-content h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+#about-info .about-content p {
+    font-size: 1.2em;
+}
+#feedback {
+    height: 600px;
+    background: url(../img/test-bg.jpg) no-repeat;
+    min-height: 100%;
+    text-align: center;
+}
+#feedback .container h1 {
+    font-size: 2em;
+    color: white;
+    padding: 50px 0;
+}
+#feedback .container .box-1 {
+    background-color: peru;
+    width: 1000px;
+    height:150px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+#feedback .container .box-1 img {
+    display: inline-block;
+    width: 100px;
+    max-height: 100%;
+    border-radius: 50%;
+    float: left;
+}
+#contact-info {
+    padding: 20px;
+    padding: 10px 60px;
+    line-height: 2em;
+    margin: auto;
+}
+
+#contact-info h1,#contact-info p {
+    font-size: 3em;
+}
+#contact-info p {
+    font-size: 1.2em;
+}
+#contact-info .container .form label,#contact-info .container .form input,#contact-info .container .form textarea {
+    display: block;
+}
+#contact-info .container .form label {
+    font-size: 1.2em;
+}
+#contact-info .container .form input,#contact-info .container .form textarea {
+    width: 100%;
+}
+#contact-info .container .form input {
+    height: 40px;
+}
+#contact-info .container button {
+    margin-top: 15px;
+    color: black;
+}
+#contact-info .container button:hover{
+    color: peru;
+}
+
