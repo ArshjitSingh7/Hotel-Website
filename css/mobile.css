@@ -5,6 +5,7 @@
 #main-nav .container ul {
     float: none;
     text-align: center;
+    margin-right: 0px;
 }
 #main-nav .container ul li {
     float: none;
@@ -48,9 +49,6 @@
 
 #about-info .about-content h1 {
     text-align: center;
-}
-#feedback  {
-    height: 700px;
 }
 #feedback .container .box-1 {
     width: 100%;
