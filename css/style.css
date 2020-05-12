@@ -222,4 +222,10 @@ h1,h2,h2 {
 #contact-info .container button:hover{
     color: peru;
 }
+@media (max-width:500px) {
+    #main-info .container h1 {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+}
 
