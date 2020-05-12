@@ -34,9 +34,12 @@
 #about-info .about-content{
     float: none;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding-left: 50px;
-    text-align: inherit;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #about-info {
     padding: 0px;
@@ -45,6 +48,9 @@
 
 #about-info .about-content h1 {
     text-align: center;
+}
+#feedback  {
+    height: 700px;
 }
 #feedback .container .box-1 {
     width: 100%;
